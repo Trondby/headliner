@@ -1,0 +1,8 @@
+[package]
+name = "headliner"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.11.4", features = ["blocking"] }
+xml-rs = "0.8.3"
