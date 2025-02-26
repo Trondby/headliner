@@ -1,8 +1,13 @@
 [package]
 name = "headliner"
 version = "0.1.0"
-edition = "2018"
+edition = "2024"
 
 [dependencies]
 reqwest = { version = "0.12", features = ["blocking"] }
 xml-rs = "0.8"
+
+[profile.release]
+debug = false
+panic = 'abort'
+strip = true

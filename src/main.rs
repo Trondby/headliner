@@ -1,5 +1,3 @@
-use reqwest;
-use xml;
 use xml::reader::XmlEvent;
 
 fn main() {
